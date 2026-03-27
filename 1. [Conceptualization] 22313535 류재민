@@ -6,21 +6,22 @@ Project A+
 
 [ Revision history ]
 
-<div style="overflow-x:auto"><table cellspacing="0" class="TableControl borderfill-2" style=" width: 167.33mm; /* hrelto: column halign: left*/ margin-left: 1mm; border-collapse: collapse; "><tr><td class="borderfill-4" colspan="1" rowspan="1" style=" width: 41.83mm; height: 0.99mm; padding: 0.5mm 1.8mm 0.5mm 1.8mm; "><p class="Normal parashape-19">Revision date</p></td><td class="borderfill-4" colspan="1" rowspan="1" style=" width: 27.86mm; height: 0.99mm; padding: 0.5mm 1.8mm 0.5mm 1.8mm; "><p class="Normal parashape-19">Version #</p></td><td class="borderfill-4" colspan="1" rowspan="1" style=" width: 51.82mm; height: 0.99mm; padding: 0.5mm 1.8mm 0.5mm 1.8mm; "><p class="Normal parashape-19">Description</p></td><td class="borderfill-4" colspan="1" rowspan="1" style=" width: 45.83mm; height: 0.99mm; padding: 0.5mm 1.8mm 0.5mm 1.8mm; "><p class="Normal parashape-19">Author</p></td></tr><tr><td class="borderfill-2" colspan="1" rowspan="1" style=" width: 41.83mm; height: 11.22mm; padding: 0.5mm 1.8mm 0.5mm 1.8mm; "><p class="Normal">2026/03/26</p></td><td class="borderfill-2" colspan="1" rowspan="1" style=" width: 27.86mm; height: 11.22mm; padding: 0.5mm 1.8mm 0.5mm 1.8mm; "><p class="Normal">0.01</p></td><td class="borderfill-2" colspan="1" rowspan="1" style=" width: 51.82mm; height: 11.22mm; padding: 0.5mm 1.8mm 0.5mm 1.8mm; "><p class="Normal parashape-30">First Documentation</p></td><td class="borderfill-2" colspan="1" rowspan="1" style=" width: 45.83mm; height: 11.22mm; padding: 0.5mm 1.8mm 0.5mm 1.8mm; "><p class="Normal">류재민</p></td></tr><tr><td class="borderfill-2" colspan="1" rowspan="1" style=" width: 41.83mm; height: 10.51mm; padding: 0.5mm 1.8mm 0.5mm 1.8mm; "></td><td class="borderfill-2" colspan="1" rowspan="1" style=" width: 27.86mm; height: 10.51mm; padding: 0.5mm 1.8mm 0.5mm 1.8mm; "></td><td class="borderfill-2" colspan="1" rowspan="1" style=" width: 51.82mm; height: 10.51mm; padding: 0.5mm 1.8mm 0.5mm 1.8mm; "></td><td class="borderfill-2" colspan="1" rowspan="1" style=" width: 45.83mm; height: 10.51mm; padding: 0.5mm 1.8mm 0.5mm 1.8mm; "></td></tr><tr><td class="borderfill-2" colspan="1" rowspan="1" style=" width: 41.83mm; height: 10.51mm; padding: 0.5mm 1.8mm 0.5mm 1.8mm; "></td><td class="borderfill-2" colspan="1" rowspan="1" style=" width: 27.86mm; height: 10.51mm; padding: 0.5mm 1.8mm 0.5mm 1.8mm; "></td><td class="borderfill-2" colspan="1" rowspan="1" style=" width: 51.82mm; height: 10.51mm; padding: 0.5mm 1.8mm 0.5mm 1.8mm; "></td><td class="borderfill-2" colspan="1" rowspan="1" style=" width: 45.83mm; height: 10.51mm; padding: 0.5mm 1.8mm 0.5mm 1.8mm; "></td></tr><tr><td class="borderfill-2" colspan="1" rowspan="1" style=" width: 41.83mm; height: 10.51mm; padding: 0.5mm 1.8mm 0.5mm 1.8mm; "></td><td class="borderfill-2" colspan="1" rowspan="1" style=" width: 27.86mm; height: 10.51mm; padding: 0.5mm 1.8mm 0.5mm 1.8mm; "></td><td class="borderfill-2" colspan="1" rowspan="1" style=" width: 51.82mm; height: 10.51mm; padding: 0.5mm 1.8mm 0.5mm 1.8mm; "></td><td class="borderfill-2" colspan="1" rowspan="1" style=" width: 45.83mm; height: 10.51mm; padding: 0.5mm 1.8mm 0.5mm 1.8mm; "></td></tr><tr><td class="borderfill-2" colspan="1" rowspan="1" style=" width: 41.83mm; height: 10.51mm; padding: 0.5mm 1.8mm 0.5mm 1.8mm; "></td><td class="borderfill-2" colspan="1" rowspan="1" style=" width: 27.86mm; height: 10.51mm; padding: 0.5mm 1.8mm 0.5mm 1.8mm; "></td><td class="borderfill-2" colspan="1" rowspan="1" style=" width: 51.82mm; height: 10.51mm; padding: 0.5mm 1.8mm 0.5mm 1.8mm; "></td><td class="borderfill-2" colspan="1" rowspan="1" style=" width: 45.83mm; height: 10.51mm; padding: 0.5mm 1.8mm 0.5mm 1.8mm; "></td></tr><tr><td class="borderfill-2" colspan="1" rowspan="1" style=" width: 41.83mm; height: 10.51mm; padding: 0.5mm 1.8mm 0.5mm 1.8mm; "></td><td class="borderfill-2" colspan="1" rowspan="1" style=" width: 27.86mm; height: 10.51mm; padding: 0.5mm 1.8mm 0.5mm 1.8mm; "></td><td class="borderfill-2" colspan="1" rowspan="1" style=" width: 51.82mm; height: 10.51mm; padding: 0.5mm 1.8mm 0.5mm 1.8mm; "></td><td class="borderfill-2" colspan="1" rowspan="1" style=" width: 45.83mm; height: 10.51mm; padding: 0.5mm 1.8mm 0.5mm 1.8mm; "></td></tr></table></div>= Contents =
 
-Business purpose ..................................................................................
 
-2. System context diagram .......................................................................
+1.Business purpose
 
-3. Use case list .........................................................................................
+2. System context diagram 
 
-4. Concept of operation ............................................................................
+3. Use case list 
 
-5. Problem statement ................................................................................
+4. Concept of operation
 
-6. Glossary .................................................................................................
+5. Problem statement 
 
-7. References .................................................................................................
+6. Glossary 
+
+7. References 
+
 
 Business purpose
 
