@@ -1,0 +1,8 @@
+{
+  "name": "ProjectAPlus.Runtime",
+  "rootNamespace": "ProjectAPlus",
+  "references": [
+    "UnityEngine.UI"
+  ],
+  "autoReferenced": true
+}

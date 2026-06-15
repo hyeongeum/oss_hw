@@ -1,0 +1,452 @@
+{
+    "stages": [
+        {
+            "stageNumber": 1,
+            "stageName": "첫 수업 - 튜토리얼",
+            "backgroundType": "아침 강의실",
+            "clearCondition": "졸음 슬라임 2마리를 처치하고 강의실 끝에 도착",
+            "objective": "졸음 슬라임 2마리를 처치하고 강의실 끝에 도착",
+            "targetEnemyKillCount": 2,
+            "timeLimit": 0.0,
+            "baseRewardExp": 50,
+            "baseRewardScore": 500,
+            "growthPointReward": 1,
+            "rewardItemId": "energy_jelly",
+            "nextStageNumber": 2,
+            "bossData": {
+                "bossName": "",
+                "maxHp": 0,
+                "attackPower": 0
+            },
+            "enemySpawnList": [
+                {
+                    "type": 0,
+                    "x": 10.0,
+                    "y": 1.2000000476837159,
+                    "elite": false
+                },
+                {
+                    "type": 0,
+                    "x": 20.0,
+                    "y": 1.2000000476837159,
+                    "elite": false
+                },
+                {
+                    "type": 5,
+                    "x": 29.0,
+                    "y": 1.2000000476837159,
+                    "elite": false
+                }
+            ]
+        },
+        {
+            "stageNumber": 2,
+            "stageName": "강의 집중",
+            "backgroundType": "일반 강의실",
+            "clearCondition": "적 5마리를 처치하고 목표 지점 도착",
+            "objective": "적 5마리를 처치하고 목표 지점 도착",
+            "targetEnemyKillCount": 5,
+            "timeLimit": 0.0,
+            "baseRewardExp": 80,
+            "baseRewardScore": 1000,
+            "growthPointReward": 1,
+            "rewardItemId": "",
+            "nextStageNumber": 3,
+            "bossData": {
+                "bossName": "",
+                "maxHp": 0,
+                "attackPower": 0
+            },
+            "enemySpawnList": [
+                {
+                    "type": 1,
+                    "x": 7.0,
+                    "y": 1.2000000476837159,
+                    "elite": false
+                },
+                {
+                    "type": 7,
+                    "x": 13.0,
+                    "y": 1.2000000476837159,
+                    "elite": false
+                },
+                {
+                    "type": 0,
+                    "x": 20.0,
+                    "y": 1.2000000476837159,
+                    "elite": false
+                },
+                {
+                    "type": 1,
+                    "x": 27.0,
+                    "y": 1.2000000476837159,
+                    "elite": false
+                },
+                {
+                    "type": 0,
+                    "x": 33.0,
+                    "y": 1.2000000476837159,
+                    "elite": false
+                }
+            ]
+        },
+        {
+            "stageNumber": 3,
+            "stageName": "과제 폭탄",
+            "backgroundType": "점심 강의실",
+            "clearCondition": "과제 몬스터 2마리를 포함해 적을 처치",
+            "objective": "과제 몬스터 2마리를 포함해 적을 처치",
+            "targetEnemyKillCount": 4,
+            "timeLimit": 0.0,
+            "baseRewardExp": 120,
+            "baseRewardScore": 1400,
+            "growthPointReward": 1,
+            "rewardItemId": "organized_notes",
+            "nextStageNumber": 4,
+            "bossData": {
+                "bossName": "",
+                "maxHp": 0,
+                "attackPower": 0
+            },
+            "enemySpawnList": [
+                {
+                    "type": 2,
+                    "x": 11.0,
+                    "y": 1.2000000476837159,
+                    "elite": true
+                },
+                {
+                    "type": 1,
+                    "x": 18.0,
+                    "y": 1.2000000476837159,
+                    "elite": false
+                },
+                {
+                    "type": 5,
+                    "x": 25.0,
+                    "y": 1.2000000476837159,
+                    "elite": false
+                },
+                {
+                    "type": 2,
+                    "x": 32.0,
+                    "y": 1.2000000476837159,
+                    "elite": true
+                }
+            ]
+        },
+        {
+            "stageNumber": 4,
+            "stageName": "팀플 지옥",
+            "backgroundType": "팀플 회의실",
+            "clearCondition": "팀플 웨이브 3개를 정리",
+            "objective": "팀플 웨이브 3개를 정리",
+            "targetEnemyKillCount": 6,
+            "timeLimit": 0.0,
+            "baseRewardExp": 150,
+            "baseRewardScore": 1900,
+            "growthPointReward": 2,
+            "rewardItemId": "night_coffee",
+            "nextStageNumber": 5,
+            "bossData": {
+                "bossName": "",
+                "maxHp": 0,
+                "attackPower": 0
+            },
+            "enemySpawnList": [
+                {
+                    "type": 3,
+                    "x": 7.0,
+                    "y": 1.2000000476837159,
+                    "elite": false
+                },
+                {
+                    "type": 3,
+                    "x": 12.0,
+                    "y": 1.2000000476837159,
+                    "elite": false
+                },
+                {
+                    "type": 4,
+                    "x": 19.0,
+                    "y": 1.2000000476837159,
+                    "elite": false
+                },
+                {
+                    "type": 3,
+                    "x": 25.0,
+                    "y": 1.2000000476837159,
+                    "elite": false
+                },
+                {
+                    "type": 4,
+                    "x": 31.0,
+                    "y": 1.2000000476837159,
+                    "elite": false
+                },
+                {
+                    "type": 3,
+                    "x": 36.0,
+                    "y": 1.2000000476837159,
+                    "elite": false
+                }
+            ]
+        },
+        {
+            "stageNumber": 5,
+            "stageName": "중간고사",
+            "backgroundType": "중간고사 시험장",
+            "clearCondition": "중간고사 감시자를 처치",
+            "objective": "중간고사 감시자를 처치",
+            "targetEnemyKillCount": 1,
+            "timeLimit": 0.0,
+            "baseRewardExp": 250,
+            "baseRewardScore": 3000,
+            "growthPointReward": 3,
+            "rewardItemId": "past_exam_book",
+            "nextStageNumber": 6,
+            "bossData": {
+                "bossName": "중간고사 감시자",
+                "maxHp": 560,
+                "attackPower": 15
+            },
+            "enemySpawnList": []
+        },
+        {
+            "stageNumber": 6,
+            "stageName": "다시 시작되는 학기",
+            "backgroundType": "저녁 강의실",
+            "clearCondition": "누적 피로와 과제를 뚫고 목표 지점 도착",
+            "objective": "누적 피로와 과제를 뚫고 목표 지점 도착",
+            "targetEnemyKillCount": 5,
+            "timeLimit": 0.0,
+            "baseRewardExp": 180,
+            "baseRewardScore": 2200,
+            "growthPointReward": 1,
+            "rewardItemId": "",
+            "nextStageNumber": 7,
+            "bossData": {
+                "bossName": "",
+                "maxHp": 0,
+                "attackPower": 0
+            },
+            "enemySpawnList": [
+                {
+                    "type": 6,
+                    "x": 8.0,
+                    "y": 1.2000000476837159,
+                    "elite": false
+                },
+                {
+                    "type": 5,
+                    "x": 14.0,
+                    "y": 1.2000000476837159,
+                    "elite": false
+                },
+                {
+                    "type": 2,
+                    "x": 21.0,
+                    "y": 1.2000000476837159,
+                    "elite": true
+                },
+                {
+                    "type": 6,
+                    "x": 28.0,
+                    "y": 1.2000000476837159,
+                    "elite": false
+                },
+                {
+                    "type": 2,
+                    "x": 35.0,
+                    "y": 1.2000000476837159,
+                    "elite": true
+                }
+            ]
+        },
+        {
+            "stageNumber": 7,
+            "stageName": "발표 공포",
+            "backgroundType": "발표실",
+            "clearCondition": "발표 공격을 회피하며 적 처치",
+            "objective": "발표 공격을 회피하며 적 처치",
+            "targetEnemyKillCount": 5,
+            "timeLimit": 0.0,
+            "baseRewardExp": 220,
+            "baseRewardScore": 2600,
+            "growthPointReward": 2,
+            "rewardItemId": "presentation_script",
+            "nextStageNumber": 8,
+            "bossData": {
+                "bossName": "",
+                "maxHp": 0,
+                "attackPower": 0
+            },
+            "enemySpawnList": [
+                {
+                    "type": 4,
+                    "x": 8.0,
+                    "y": 1.2000000476837159,
+                    "elite": false
+                },
+                {
+                    "type": 6,
+                    "x": 15.0,
+                    "y": 1.2000000476837159,
+                    "elite": false
+                },
+                {
+                    "type": 4,
+                    "x": 22.0,
+                    "y": 1.2000000476837159,
+                    "elite": false
+                },
+                {
+                    "type": 7,
+                    "x": 29.0,
+                    "y": 1.2000000476837159,
+                    "elite": false
+                },
+                {
+                    "type": 4,
+                    "x": 35.0,
+                    "y": 1.2000000476837159,
+                    "elite": false
+                }
+            ]
+        },
+        {
+            "stageNumber": 8,
+            "stageName": "레포트 마감",
+            "backgroundType": "도서관",
+            "clearCondition": "제한 시간 안에 마감 지점 도착",
+            "objective": "제한 시간 안에 마감 지점 도착",
+            "targetEnemyKillCount": 5,
+            "timeLimit": 180.0,
+            "baseRewardExp": 250,
+            "baseRewardScore": 3000,
+            "growthPointReward": 2,
+            "rewardItemId": "focus_headphones",
+            "nextStageNumber": 9,
+            "bossData": {
+                "bossName": "",
+                "maxHp": 0,
+                "attackPower": 0
+            },
+            "enemySpawnList": [
+                {
+                    "type": 5,
+                    "x": 7.0,
+                    "y": 1.2000000476837159,
+                    "elite": false
+                },
+                {
+                    "type": 2,
+                    "x": 13.0,
+                    "y": 1.2000000476837159,
+                    "elite": false
+                },
+                {
+                    "type": 6,
+                    "x": 20.0,
+                    "y": 1.2000000476837159,
+                    "elite": false
+                },
+                {
+                    "type": 5,
+                    "x": 27.0,
+                    "y": 1.2000000476837159,
+                    "elite": false
+                },
+                {
+                    "type": 2,
+                    "x": 34.0,
+                    "y": 1.2000000476837159,
+                    "elite": true
+                }
+            ]
+        },
+        {
+            "stageNumber": 9,
+            "stageName": "기말 직전 밤샘",
+            "backgroundType": "밤 도서관",
+            "clearCondition": "졸음 군단 웨이브를 정리",
+            "objective": "졸음 군단 웨이브를 정리",
+            "targetEnemyKillCount": 7,
+            "timeLimit": 0.0,
+            "baseRewardExp": 300,
+            "baseRewardScore": 3600,
+            "growthPointReward": 3,
+            "rewardItemId": "final_notes",
+            "nextStageNumber": 10,
+            "bossData": {
+                "bossName": "",
+                "maxHp": 0,
+                "attackPower": 0
+            },
+            "enemySpawnList": [
+                {
+                    "type": 0,
+                    "x": 6.0,
+                    "y": 1.2000000476837159,
+                    "elite": false
+                },
+                {
+                    "type": 0,
+                    "x": 11.0,
+                    "y": 1.2000000476837159,
+                    "elite": false
+                },
+                {
+                    "type": 6,
+                    "x": 16.0,
+                    "y": 1.2000000476837159,
+                    "elite": false
+                },
+                {
+                    "type": 0,
+                    "x": 22.0,
+                    "y": 1.2000000476837159,
+                    "elite": false
+                },
+                {
+                    "type": 1,
+                    "x": 27.0,
+                    "y": 1.2000000476837159,
+                    "elite": false
+                },
+                {
+                    "type": 6,
+                    "x": 33.0,
+                    "y": 1.2000000476837159,
+                    "elite": false
+                },
+                {
+                    "type": 0,
+                    "x": 37.0,
+                    "y": 1.2000000476837159,
+                    "elite": false
+                }
+            ]
+        },
+        {
+            "stageNumber": 10,
+            "stageName": "기말고사",
+            "backgroundType": "최종 시험장",
+            "clearCondition": "기말고사 심판관을 처치",
+            "objective": "기말고사 심판관을 처치",
+            "targetEnemyKillCount": 1,
+            "timeLimit": 0.0,
+            "baseRewardExp": 500,
+            "baseRewardScore": 6000,
+            "growthPointReward": 4,
+            "rewardItemId": "",
+            "nextStageNumber": 11,
+            "bossData": {
+                "bossName": "기말고사 심판관",
+                "maxHp": 1180,
+                "attackPower": 20
+            },
+            "enemySpawnList": []
+        }
+    ]
+}

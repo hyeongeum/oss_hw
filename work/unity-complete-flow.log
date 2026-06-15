@@ -1,0 +1,1872 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ryu" at "2026-06-10T15:12:39.9289698Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 6760, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              623f0e2e3f05414894d583f5fdf29a7a
+  Correlation Id:          a4ec32d7fa3ccb5e3ca9521351e72f06
+  External correlation Id: 5680511527426512783
+  Machine Id:              DmiLKw+t5DT3/hMBSqk+rgCMFBw=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ryu" (connect: 0.00s, validation: 0.01s, handshake: 0.03s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ryu-notifications" at "2026-06-10T15:12:39.9722208Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully updated license
+Built from '2022.3/respin/2022.3.62f2-4af31df585-v2' branch; Version is '2022.3.62f3 (96770f904ca7) revision 9860879'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'ko' Physical Memory: 16300 MB
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Serial number assigned to: "14568691939415-UnityPersXXXX"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+[Licensing::Client] Successfully resolved entitlement details
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Unity.exe
+-batchmode
+-nographics
+-projectPath
+C:\Users\ryu\Documents\Codex\2026-06-10\files-mentioned-by-the-user-3
+-executeMethod
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator.RunCompleteFlowSmokeTest
+-logFile
+C:\Users\ryu\Documents\Codex\2026-06-10\files-mentioned-by-the-user-3\work\unity-complete-flow.log
+Successfully changed project path to: C:\Users\ryu\Documents\Codex\2026-06-10\files-mentioned-by-the-user-3
+C:/Users/ryu/Documents/Codex/2026-06-10/files-mentioned-by-the-user-3
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [30256]  Target information:
+
+Player connection [30256]  * "[IP] 192.168.45.15 [Port] 55504 [Flags] 2 [Guid] 3886364434 [EditorId] 3886364434 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-27JCNNG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [30256]  * "[IP] 10.121.44.238 [Port] 55504 [Flags] 2 [Guid] 3886364434 [EditorId] 3886364434 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-27JCNNG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [30256] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [30256] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[Package Manager] UpmClient::Connect -- Connected to IPC stream "Upm-21000" after 0.4 seconds.
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 7 packages:
+  Built-in packages:
+    com.unity.modules.audio@1.0.0 (location: C:\Users\ryu\Documents\Codex\2026-06-10\files-mentioned-by-the-user-3\Library\PackageCache\com.unity.modules.audio@1.0.0)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\ryu\Documents\Codex\2026-06-10\files-mentioned-by-the-user-3\Library\PackageCache\com.unity.modules.imageconversion@1.0.0)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\ryu\Documents\Codex\2026-06-10\files-mentioned-by-the-user-3\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\ryu\Documents\Codex\2026-06-10\files-mentioned-by-the-user-3\Library\PackageCache\com.unity.modules.physics2d@1.0.0)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\ryu\Documents\Codex\2026-06-10\files-mentioned-by-the-user-3\Library\PackageCache\com.unity.modules.ui@1.0.0)
+    com.unity.ugui@1.0.0 (location: C:\Users\ryu\Documents\Codex\2026-06-10\files-mentioned-by-the-user-3\Library\PackageCache\com.unity.ugui@1.0.0)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\ryu\Documents\Codex\2026-06-10\files-mentioned-by-the-user-3\Library\PackageCache\com.unity.modules.imgui@1.0.0)
+[Subsystems] No new subsystems found in resolved package list.
+Package Manager log level set to [2]
+[Package Manager] Done registering packages in 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.62f3 (96770f904ca7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ryu/Documents/Codex/2026-06-10/files-mentioned-by-the-user-3/Assets
+Forcing GfxDevice: Null
+GfxDevice: creating device client; threaded=0; jobified=0
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+[Licensing::Client] Successfully resolved entitlement details
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008690 seconds.
+- Loaded All Assemblies, in  0.369 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.251 seconds
+Domain Reload Profiling: 617ms
+	BeginReloadAssembly (106ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (156ms)
+		LoadAssemblies (104ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (138ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (251ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (206ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (143ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:80
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\Users\ryu\Documents\Codex\2026-06-10\files-mentioned-by-the-user-3\
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc - - 200 - application/grpc 40.9523ms
+Starting: C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/ryu/Documents/Codex/2026-06-10/files-mentioned-by-the-user-3
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 1s675ms
+[118/121    1s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[119/121    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[120/121    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (1.64 seconds), 3 items updated, 121 evaluated
+AssetDatabase: script compilation time: 2.142536s
+Begin MonoManager ReloadAssembly
+Total cache size 2574824
+Total cache size after purge 2574824
+- Loaded All Assemblies, in  0.329 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Start importing Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs using Guid(baf1e1b45373d104d9790e6a753617ff) Importer(-1,00000000000000000000000000000000) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9bd7b3fda37134bd4cc5bced08b5e84e') in 0.016452 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.324 seconds
+Domain Reload Profiling: 651ms
+	BeginReloadAssembly (150ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (109ms)
+		LoadAssemblies (176ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (3ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (324ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (223ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (139ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=f82761d39e61d674ea369b084f3fb52d): Total: 3.058 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=3 ms, native=170 ms
+		Asset DB Callback time: managed=45 ms, native=2 ms
+		Scripting: domain reloads=1, domain reload time=679 ms, compile time=2144 ms, other=13 ms
+		Project Asset Count: scripts=345, non-scripts=66
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeBeforeRefreshCallbacks: 1.196ms
+	ApplyChangesToAssetFolders: 0.022ms
+	Scan: 24.083ms
+	OnSourceAssetsModified: 3.041ms
+	GetAllGuidsForCategorization: 0.076ms
+	CategorizeAssets: 3.154ms
+	ImportOutOfDateAssets: 347.650ms (-1819.581ms without children)
+		ImportManagerImport: 21.367ms (4.744ms without children)
+			ImportInProcess: 16.602ms
+			UpdateCategorizedAssets: 0.021ms
+		CompileScripts: 2144.180ms
+		ReloadNativeAssets: 0.000ms
+		UnloadImportedAssets: 1.268ms
+		ReloadImportedAssets: 0.215ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.091ms
+		InitializingProgressBar: 0.008ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.101ms
+	PostProcessAllAssets: 43.148ms
+	Hotreload: 0.566ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.001ms
+	UnloadStreamsBegin: 0.424ms
+	PersistCurrentRevisions: 0.053ms
+	UnloadStreamsEnd: 0.003ms
+	GenerateScriptTypeHashes: 0.020ms
+	Untracked: 2634.934ms
+Application.AssetDatabase Initial Refresh End
+Scanning for USB devices : 4.299ms
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Project A+
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ProgressiveSceneManager::Cancel()
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (469.6 KB). Loaded Objects now: 752.
+Memory consumption went from 79.0 MB to 78.6 MB.
+Total: 2.167000 ms (FindLiveObjects: 0.049400 ms CreateObjectMapping: 0.008200 ms MarkObjects: 1.926100 ms  DeleteObjects: 0.182800 ms)
+
+Opening scene 'Assets/ProjectAPlus/Scenes/BootScene.unity'
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/ProjectAPlus/Scenes/BootScene.unity'
+	Deserialize:            0.837 ms
+	Integration:            4.167 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.007 ms
+	Total Operation Time:   5.012 ms
+Unloading 1 unused Assets / (0.5 KB). Loaded Objects now: 755.
+Memory consumption went from 77.1 MB to 77.1 MB.
+Total: 2.230500 ms (FindLiveObjects: 0.053900 ms CreateObjectMapping: 0.009600 ms MarkObjects: 2.154100 ms  DeleteObjects: 0.012400 ms)
+
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+[Project] Loading completed in 5.312 seconds
+	Project init time: 				4.615 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.410 seconds
+		Asset Database init time: 		0.168 seconds
+		Global illumination init time: 	0.002 seconds
+		Assemblies load time: 			0.638 seconds
+		Unity extensions init time: 	0.000 seconds
+		Asset Database refresh time: 	0.000 seconds
+	Scene opening time: 			0.110 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1781104365230,"processId":21000,"projectLoad":5.3124175000000009,"projectInit":4.614798,"templateInit":0.0,"packageManagerInit":0.4101294,"assetDatabaseInit":0.16808,"globalIlluminationInit":0.0022498,"assembliesLoad":0.6379888,"unityExtensionsInit":0.000465,"assetDatabaseRefresh":0.0,"sceneOpening":0.1098076}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1781104365230,"processId":21000,"editorVersion":"2022.3.62f3 (96770f904ca7)","branch":"2022.3/respin/2022.3.62f2-4af31df585-v2","buildType":"Release","platform":"Windows"}
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.215 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.393 seconds
+Domain Reload Profiling: 605ms
+	BeginReloadAssembly (133ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (11ms)
+		LoadAssemblies (91ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (393ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (240ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (145ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Asset Pipeline Refresh (id=fdbd9a3c400a27a40863608e1bbf4f57): Total: 0.655 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=23 ms
+		Asset DB Callback time: managed=10 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=618 ms, compile time=1 ms, other=0 ms
+		Project Asset Count: scripts=345, non-scripts=66
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeBeforeRefreshCallbacks: 0.868ms
+	ApplyChangesToAssetFolders: 0.012ms
+	Scan: 0.001ms
+	OnSourceAssetsModified: 0.001ms
+	GetAllGuidsForCategorization: 0.068ms
+	CategorizeAssets: 3.057ms
+	ImportOutOfDateAssets: 393.804ms (391.998ms without children)
+		CompileScripts: 1.496ms
+		CollectScriptTypesHashes: 0.000ms
+		ReloadNativeAssets: 0.000ms
+		UnloadImportedAssets: 0.048ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.077ms
+		InitializingProgressBar: 0.001ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.184ms
+	PostProcessAllAssets: 10.926ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.034ms
+	UnloadStreamsBegin: 0.046ms
+	PersistCurrentRevisions: 0.013ms
+	UnloadStreamsEnd: 0.002ms
+	GenerateScriptTypeHashes: 0.016ms
+	Untracked: 246.627ms
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Project A+ core validation passed.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectAPlus.ProjectValidator:LogResult () (at Assets/ProjectAPlus/Scripts/Utility/ProjectValidator.cs:33)
+ProjectAPlus.GameManager:Awake () (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:46)
+UnityEngine.GameObject:AddComponent (System.Type)
+UnityEngine.GameObject:AddComponent<ProjectAPlus.GameManager> ()
+ProjectAPlus.GameManager:Bootstrap () (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:26)
+
+(Filename: Assets/ProjectAPlus/Scripts/Utility/ProjectValidator.cs Line: 33)
+
+Project A+ title ready.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectAPlus.GameManager:Awake () (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:52)
+UnityEngine.GameObject:AddComponent (System.Type)
+UnityEngine.GameObject:AddComponent<ProjectAPlus.GameManager> ()
+ProjectAPlus.GameManager:Bootstrap () (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:26)
+
+(Filename: Assets/ProjectAPlus/Scripts/Core/GameManager.cs Line: 52)
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.516 ms
+	Integration:            180.054 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.006 ms
+	Total Operation Time:   180.577 ms
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Project A+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:68)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 68]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:69)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 69]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:70)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 70]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:72)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 72]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:73)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 73]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:74)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 74]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:75)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 75]
+
+Created GICache directory at C:/Users/ryu/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.031s, timestamps: [6.240 - 6.271]
+Project A+ flow Stage 1 clear transition: True, state=Result
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:228)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs Line: 228)
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:68)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 68]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:69)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 69]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:70)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 70]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:72)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 72]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:73)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 73]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:74)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 74]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:75)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 75]
+
+Project A+ flow Stage 2 clear transition: True, state=Result
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:228)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs Line: 228)
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:68)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 68]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:69)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 69]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:70)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 70]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:72)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 72]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:73)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 73]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:74)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 74]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:75)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 75]
+
+Project A+ flow Stage 3 clear transition: True, state=Result
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:228)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs Line: 228)
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:68)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 68]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:69)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 69]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:70)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 70]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:72)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 72]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:73)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 73]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:74)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 74]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:75)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 75]
+
+Project A+ flow Stage 4 clear transition: True, state=Result
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:228)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs Line: 228)
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:63)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 63]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:64)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 64]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:65)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 65]
+
+Project A+ flow Stage 5 clear transition: True, state=Result
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:228)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs Line: 228)
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:68)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 68]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:69)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 69]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:70)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 70]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:72)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 72]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:73)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 73]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:74)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 74]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:75)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 75]
+
+Project A+ flow Stage 6 clear transition: True, state=Result
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:228)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs Line: 228)
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:68)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 68]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:69)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 69]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:70)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 70]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:72)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 72]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:73)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 73]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:74)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 74]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:75)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 75]
+
+Project A+ flow Stage 7 clear transition: True, state=Result
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:228)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs Line: 228)
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:68)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 68]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:69)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 69]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:70)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 70]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:72)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 72]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:73)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 73]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:74)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 74]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:75)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 75]
+
+Project A+ flow Stage 8 clear transition: True, state=Result
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:228)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs Line: 228)
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:68)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 68]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:69)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 69]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:70)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 70]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:72)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 72]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:73)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 73]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:74)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 74]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:75)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 75]
+
+Project A+ flow Stage 9 clear transition: True, state=Result
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:228)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs Line: 228)
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:63)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 63]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:64)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 64]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ProjectAPlus.StageManager:Platform (UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Color) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:118)
+ProjectAPlus.StageManager:BuildEnvironment () (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:65)
+ProjectAPlus.StageManager:Load (ProjectAPlus.StageData) (at Assets/ProjectAPlus/Scripts/Core/StageManager.cs:36)
+ProjectAPlus.GameManager:LoadStage (int) (at Assets/ProjectAPlus/Scripts/Core/GameManager.cs:108)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:219)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/ProjectAPlus/Scripts/Core/StageManager.cs line 65]
+
+Project A+ flow Stage 10 clear transition: True, state=Ending
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:228)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs Line: 228)
+
+Project A+ ending to final grade transition: True, state=FinalGrade
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:242)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs Line: 242)
+
+Project A+ complete game flow smoke: True
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:FinishCompleteFlow (bool) (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:250)
+ProjectAPlus.Editor.ProjectAPlusAssetGenerator:CompleteFlowSmokeUpdate () (at Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs:243)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/ProjectAPlus/Editor/ProjectAPlusAssetGenerator.cs Line: 250)
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-ryu-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-ryu channel disconnected successfully.
+Cleanup mono
+abort_threads: Failed aborting id: 0000000000007254, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000007254, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 4616
+[Performance] WinEditorMain                                                                                                        :        1 samples, Peak.   565 ms (1.0x), Avg.   565 ms, Total. 564.7 ms (2.4%)
+[Performance] WinEditorMain.ConfigureCrashHandler                                                                                  :        1 samples, Peak.  24.2 us (1.0x), Avg.  24.2 us, Total. 24.20 us (0.0%)
+[Performance] WinEditorMain.CurlRequestInitialize                                                                                  :        1 samples, Peak.   427 us (1.0x), Avg.   427 us, Total. 427.0 us (0.0%)
+[Performance] WinEditorMain.SetupLogFile                                                                                           :        1 samples, Peak.   555 us (1.0x), Avg.   555 us, Total. 554.8 us (0.0%)
+[Performance] WinEditorMain.RunNativeTestsIfRequiredAndExit                                                                        :        1 samples, Peak.   200 ns (1.0x), Avg.   200 ns, Total. 200.0 ns (0.0%)
+[Performance] WinEditorMain.Licensing                                                                                              :        1 samples, Peak.   548 ms (1.0x), Avg.   548 ms, Total. 548.3 ms (2.4%)
+[Performance] WinEditorMain.InitializeCrashHandler                                                                                 :        1 samples, Peak.  12.4 ms (1.0x), Avg.  12.4 ms, Total. 12.40 ms (0.1%)
+[Performance] WinEditorMain.CreateApplication                                                                                      :        1 samples, Peak.   189 us (1.0x), Avg.   189 us, Total. 189.4 us (0.0%)
+[Performance] Application.InitializeProject                                                                                        :        1 samples, Peak.  4.61 s (1.0x), Avg.  4.61 s, Total. 4.615 s (19.8%)
+[Performance] Application.PackageManager.StartServer                                                                               :        1 samples, Peak.  4.45 ms (1.0x), Avg.  4.45 ms, Total. 4.448 ms (0.0%)
+[Performance] Application.AcquireProjectLock                                                                                       :        1 samples, Peak.  5.21 ms (1.0x), Avg.  5.21 ms, Total. 5.211 ms (0.0%)
+[Performance] Application.InitializeEngineNoGraphics                                                                               :        1 samples, Peak.  55.4 ms (1.0x), Avg.  55.4 ms, Total. 55.45 ms (0.2%)
+[Performance] Application.PackageManager.Initialize                                                                                :        1 samples, Peak.   410 ms (1.0x), Avg.   410 ms, Total. 410.1 ms (1.8%)
+[Performance] Connecting to Package Manager                                                                                        :       42 samples, Peak.  61.2 us (17.9x), Avg.  3.43 us, Total. 143.9 us (0.0%)
+[Performance] Application.EngineGraphics.Initialize                                                                                :        1 samples, Peak.  19.7 ms (1.0x), Avg.  19.7 ms, Total. 19.70 ms (0.1%)
+[Performance] Application.GI.Initialize                                                                                            :        1 samples, Peak.  2.25 ms (1.0x), Avg.  2.25 ms, Total. 2.252 ms (0.0%)
+[Performance] Application.LoadAllDefaultResourcesFromEditor                                                                        :        1 samples, Peak.  1.86 ms (1.0x), Avg.  1.86 ms, Total. 1.857 ms (0.0%)
+[Performance] Application.LoadMonoAssemblies                                                                                       :        1 samples, Peak.   638 ms (1.0x), Avg.   638 ms, Total. 638.0 ms (2.7%)
+[Performance] RestoreManagedReferences                                                                                             :        3 samples, Peak.  68.1 ms (1.8x), Avg.  37.2 ms, Total. 111.5 ms (0.5%)
+[Performance] InitializeOnLoad DrivenRectTransformUndo                                                                             :        3 samples, Peak.   439 us (1.1x), Avg.   417 us, Total. 1.252 ms (0.0%)
+[Performance] InitializeOnLoad SceneSearch                                                                                         :        3 samples, Peak.   144 us (1.1x), Avg.   133 us, Total. 398.0 us (0.0%)
+[Performance] InitializeOnLoad CloudBuild                                                                                          :        3 samples, Peak.  8.20 us (1.4x), Avg.  5.93 us, Total. 17.80 us (0.0%)
+[Performance] InitializeOnLoad NativeFormatImporterUtility                                                                         :        3 samples, Peak.  3.18 ms (1.4x), Avg.  2.26 ms, Total. 6.788 ms (0.0%)
+[Performance] InitializeOnLoad SearchService                                                                                       :        3 samples, Peak.   272 us (1.6x), Avg.   167 us, Total. 502.1 us (0.0%)
+[Performance] InitializeOnLoad SettingsService                                                                                     :        3 samples, Peak.  11.6 us (1.2x), Avg.  10.1 us, Total. 30.20 us (0.0%)
+[Performance] InitializeOnLoad WindowLayout                                                                                        :        3 samples, Peak.   827 us (1.2x), Avg.   694 us, Total. 2.081 ms (0.0%)
+[Performance] InitializeOnLoad AssetStoreContext                                                                                   :        3 samples, Peak.  31.1 ms (1.1x), Avg.  27.3 ms, Total. 81.96 ms (0.4%)
+[Performance] InitializeOnLoad PoolManager                                                                                         :        3 samples, Peak.   579 us (1.0x), Avg.   560 us, Total. 1.679 ms (0.0%)
+[Performance] InitializeOnLoad MixerEffectDefinitionReloader                                                                       :        3 samples, Peak.  2.69 ms (1.4x), Avg.  1.94 ms, Total. 5.815 ms (0.0%)
+[Performance] InitializeOnLoad ProjectSearch                                                                                       :        3 samples, Peak.   289 us (2.0x), Avg.   142 us, Total. 425.0 us (0.0%)
+[Performance] InitializeOnLoad UISystemProfilerRenderService                                                                       :        3 samples, Peak.  13.5 us (1.1x), Avg.  11.8 us, Total. 35.50 us (0.0%)
+[Performance] InitializeOnLoad EditMode                                                                                            :        3 samples, Peak.   610 us (1.3x), Avg.   459 us, Total. 1.377 ms (0.0%)
+[Performance] InitializeOnLoad UnityConnect                                                                                        :        3 samples, Peak.  86.7 us (1.2x), Avg.  74.5 us, Total. 223.4 us (0.0%)
+[Performance] InitializeOnLoad ManagedDebugger                                                                                     :        3 samples, Peak.  1.03 ms (1.3x), Avg.   778 us, Total. 2.335 ms (0.0%)
+[Performance] InitializeOnLoad ShortcutIntegration                                                                                 :        3 samples, Peak.  90.7 us (1.3x), Avg.  68.4 us, Total. 205.1 us (0.0%)
+[Performance] InitializeOnLoad AddComponentWindow                                                                                  :        3 samples, Peak.   166 us (1.3x), Avg.   131 us, Total. 392.6 us (0.0%)
+[Performance] InitializeOnLoad ManagedDebuggerWindow                                                                               :        3 samples, Peak.   199 us (1.3x), Avg.   153 us, Total. 459.2 us (0.0%)
+[Performance] InitializeOnLoad CacheServerWindow                                                                                   :        3 samples, Peak.  14.0 us (1.1x), Avg.  12.4 us, Total. 37.30 us (0.0%)
+[Performance] InitializeOnLoad PlayModeDownload                                                                                    :        3 samples, Peak.  5.54 ms (2.7x), Avg.  2.06 ms, Total. 6.166 ms (0.0%)
+[Performance] InitializeOnLoad MenuItems                                                                                           :        3 samples, Peak.  94.6 us (1.1x), Avg.  88.8 us, Total. 266.4 us (0.0%)
+[Performance] InitializeOnLoad PrefabInstanceChangedListener                                                                       :        3 samples, Peak.   160 us (1.1x), Avg.   145 us, Total. 434.1 us (0.0%)
+[Performance] InitializeOnLoad ObjectSelectorSearch                                                                                :        3 samples, Peak.  51.9 us (1.1x), Avg.  46.3 us, Total. 138.8 us (0.0%)
+[Performance] InitializeOnLoad EditorMonitor                                                                                       :        3 samples, Peak.   715 us (1.2x), Avg.   611 us, Total. 1.832 ms (0.0%)
+[Performance] InitializeOnLoad RetainedMode                                                                                        :        3 samples, Peak.  2.61 ms (1.1x), Avg.  2.44 ms, Total. 7.333 ms (0.0%)
+[Performance] InitializeOnLoad EditorShaderLoader                                                                                  :        3 samples, Peak.   696 us (1.0x), Avg.   676 us, Total. 2.028 ms (0.0%)
+[Performance] InitializeOnLoad EditorDelegateRegistration                                                                          :        3 samples, Peak.   599 us (1.1x), Avg.   532 us, Total. 1.597 ms (0.0%)
+[Performance] InitializeOnLoad UIDocumentHierarchyWatcher                                                                          :        3 samples, Peak.  90.1 us (1.1x), Avg.  81.5 us, Total. 244.4 us (0.0%)
+[Performance] InitializeOnLoad LiveReloadTrackerCreator                                                                            :        3 samples, Peak.   243 us (1.2x), Avg.   202 us, Total. 605.8 us (0.0%)
+[Performance] InitializeOnLoad UxmlObjectEditorFactories                                                                           :        3 samples, Peak.   537 us (1.2x), Avg.   463 us, Total. 1.390 ms (0.0%)
+[Performance] InitializeOnLoad UXMLEditorFactories                                                                                 :        3 samples, Peak.  69.3 ms (1.1x), Avg.  64.8 ms, Total. 194.4 ms (0.8%)
+[Performance] InitializeOnLoad PurchasingService                                                                                   :        3 samples, Peak.  8.34 ms (1.2x), Avg.  7.14 ms, Total. 21.43 ms (0.1%)
+[Performance] InitializeOnLoad CloudBuildPoller                                                                                    :        3 samples, Peak.   181 us (1.4x), Avg.   133 us, Total. 400.1 us (0.0%)
+[Performance] InitializeOnLoad EditorGameServicesAnalytics                                                                         :        3 samples, Peak.  2.82 ms (1.5x), Avg.  1.83 ms, Total. 5.487 ms (0.0%)
+[Performance] InitializeOnLoad AnalyticsService                                                                                    :        3 samples, Peak.   282 us (1.3x), Avg.   220 us, Total. 661.5 us (0.0%)
+[Performance] InitializeOnLoad BuildService                                                                                        :        3 samples, Peak.   233 us (1.3x), Avg.   183 us, Total. 548.4 us (0.0%)
+[Performance] InitializeOnLoad AdsService                                                                                          :        3 samples, Peak.   585 us (1.3x), Avg.   457 us, Total. 1.371 ms (0.0%)
+[Performance] InitializeOnLoad UDPService                                                                                          :        3 samples, Peak.   231 us (1.3x), Avg.   181 us, Total. 542.2 us (0.0%)
+[Performance] InitializeOnLoad CrashService                                                                                        :        3 samples, Peak.   237 us (1.3x), Avg.   180 us, Total. 540.9 us (0.0%)
+[Performance] InitializeOnLoad ServicesRepository                                                                                  :        3 samples, Peak.  1.20 us (1.5x), Avg.   800 ns, Total. 2.400 us (0.0%)
+[Performance] InitializeOnLoad SearchWindow                                                                                        :        3 samples, Peak.   192 us (1.3x), Avg.   144 us, Total. 430.8 us (0.0%)
+[Performance] InitializeOnLoad CustomIndexers                                                                                      :        3 samples, Peak.  19.4 ms (1.1x), Avg.  17.4 ms, Total. 52.30 ms (0.2%)
+[Performance] InitializeOnLoad SearchMonitor                                                                                       :        3 samples, Peak.  1.10 ms (1.1x), Avg.   974 us, Total. 2.922 ms (0.0%)
+[Performance] InitializeOnLoad ParameterControllerEditor                                                                           :        3 samples, Peak.  15.6 us (1.1x), Avg.  14.6 us, Total. 43.80 us (0.0%)
+[Performance] InitializeOnLoad LayerSettingsWindow                                                                                 :        3 samples, Peak.  21.6 us (1.4x), Avg.  15.6 us, Total. 46.70 us (0.0%)
+[Performance] InitializeOnLoad PackageManagerHookGUIDConverter.RegisterPackagesEventHandler                                        :        3 samples, Peak.   765 us (1.4x), Avg.   553 us, Total. 1.660 ms (0.0%)
+[Performance] InitializeOnLoad EditorDragAndDrop.RegisterEditorClient                                                              :        3 samples, Peak.   222 us (1.1x), Avg.   206 us, Total. 618.9 us (0.0%)
+[Performance] InitializeOnLoad EditorEventCallbacks.InitializeFontAssetResourceChangeCallBacks                                     :        3 samples, Peak.  1.16 ms (1.0x), Avg.  1.13 ms, Total. 3.388 ms (0.0%)
+[Performance] InitializeOnLoad SceneTemplateService.Init                                                                           :        3 samples, Peak.  1.29 ms (1.1x), Avg.  1.22 ms, Total. 3.665 ms (0.0%)
+[Performance] InitializeOnLoad DiagnosticSwitchesConsoleMessage.Init                                                               :        3 samples, Peak.  5.80 ms (1.4x), Avg.  4.09 ms, Total. 12.27 ms (0.1%)
+[Performance] InitializeOnLoad PackageManagerWindow.EditorInitializedInSafeMode                                                    :        3 samples, Peak.  24.9 ms (3.0x), Avg.  8.40 ms, Total. 25.20 ms (0.1%)
+[Performance] InitializeOnLoad ToolShortcutContext.Init                                                                            :        3 samples, Peak.   159 us (1.1x), Avg.   141 us, Total. 422.4 us (0.0%)
+[Performance] InitializeOnLoad MemoryProfilerCompilationGuard.InjectCompileGuard                                                   :        3 samples, Peak.   160 us (1.0x), Avg.   155 us, Total. 466.2 us (0.0%)
+[Performance] InitializeOnLoad AssetPostprocessingInternal.RefreshCustomDependencies                                               :        3 samples, Peak.  2.86 ms (1.2x), Avg.  2.40 ms, Total. 7.194 ms (0.0%)
+[Performance] InitializeOnLoad SysrootManager.Initialize                                                                           :        3 samples, Peak.   706 us (1.4x), Avg.   517 us, Total. 1.552 ms (0.0%)
+[Performance] InitializeOnLoad ScopedRegistryAddedPopup.SubscribeToRegistriesAdded                                                 :        3 samples, Peak.  9.66 ms (1.5x), Avg.  6.25 ms, Total. 18.76 ms (0.1%)
+[Performance] InitializeOnLoad SceneVisibilityManager.Initialize                                                                   :        3 samples, Peak.  4.70 ms (2.1x), Avg.  2.25 ms, Total. 6.757 ms (0.0%)
+[Performance] InitializeOnLoad EditorWindow.Initialize                                                                             :        3 samples, Peak.   316 us (1.2x), Avg.   257 us, Total. 772.0 us (0.0%)
+[Performance] AssemblyReloadEvents.afterAssemblyReload: UnityEditor.SceneTemplate.SceneTemplateService.AfterAssemblyReload         :        3 samples, Peak.  4.04 ms (1.5x), Avg.  2.64 ms, Total. 7.911 ms (0.0%)
+[Performance] ProcessService.EditorAfterLoadAllAssemblies                                                                          :        3 samples, Peak.   359 us (1.2x), Avg.   310 us, Total. 928.6 us (0.0%)
+[Performance] Application.ReadLicenseInfo                                                                                          :        1 samples, Peak.  13.0 ms (1.0x), Avg.  13.0 ms, Total. 13.05 ms (0.1%)
+[Performance] Application.InitialRefresh                                                                                           :        1 samples, Peak.  3.06 s (1.0x), Avg.  3.06 s, Total. 3.060 s (13.1%)
+[Performance] ShaderImporter.SourceAssetModified                                                                                   :        2 samples, Peak.   600 ns (1.3x), Avg.   450 ns, Total. 900.0 ns (0.0%)
+[Performance] ShaderIncludeImporter.SourceAssetModified                                                                            :        2 samples, Peak.   800 ns (1.2x), Avg.   650 ns, Total. 1.300 us (0.0%)
+[Performance] Compiling Scripts                                                                                                    :        1 samples, Peak.  2.14 s (1.0x), Avg.  2.14 s, Total. 2.143 s (9.2%)
+[Performance] AssemblyReloadEvents.beforeAssemblyReload: UnityEditor.SceneTemplate.SceneTemplateService.BeforeAssemblyReload       :        2 samples, Peak.   465 us (1.1x), Avg.   420 us, Total. 840.2 us (0.0%)
+[Performance] PresetManagerPostProcessor.OnPreprocessAsset                                                                         :        1 samples, Peak.  1.35 ms (1.0x), Avg.  1.35 ms, Total. 1.347 ms (0.0%)
+[Performance] CancelSplashScreenOnAssetChange.OnPreprocessAsset                                                                    :        1 samples, Peak.   142 us (1.0x), Avg.   142 us, Total. 141.8 us (0.0%)
+[Performance] InitializeOnLoad ProjectAPlusAssetGenerator                                                                          :        2 samples, Peak.   459 us (1.1x), Avg.   412 us, Total. 824.0 us (0.0%)
+[Performance] InitializeOnLoad PrefabLayoutRebuilder                                                                               :        2 samples, Peak.   219 us (1.0x), Avg.   219 us, Total. 438.4 us (0.0%)
+[Performance] DidReloadScriptsAdvancedDropdownWindow.OnScriptReload                                                                :        2 samples, Peak.   251 us (1.1x), Avg.   223 us, Total. 446.1 us (0.0%)
+[Performance] AssetDatabase.ImportAssets                                                                                           :        3 samples, Peak.  2.80 us (2.0x), Avg.  1.37 us, Total. 4.100 us (0.0%)
+[Performance] VersionControl.Task.Wait                                                                                             :        1 samples, Peak.  18.0 us (1.0x), Avg.  18.0 us, Total. 18.00 us (0.0%)
+[Performance] BuilderAssetPostprocessor.OnPostprocessAllAssets                                                                     :        2 samples, Peak.  2.93 ms (1.0x), Avg.  2.86 ms, Total. 5.719 ms (0.0%)
+[Performance] ArtifactBrowserPostProcessor.OnPostprocessAllAssets                                                                  :        2 samples, Peak.   461 us (1.0x), Avg.   459 us, Total. 918.4 us (0.0%)
+[Performance] AssetEvents.OnPostprocessAllAssets                                                                                   :        4 samples, Peak.   223 us (1.6x), Avg.   139 us, Total. 554.1 us (0.0%)
+[Performance] AudioMixerPostprocessor.OnPostprocessAllAssets                                                                       :        2 samples, Peak.   268 us (1.0x), Avg.   267 us, Total. 533.1 us (0.0%)
+[Performance] StyleCatalogPostProcessor.OnPostprocessAllAssets                                                                     :        2 samples, Peak.  18.8 ms (1.0x), Avg.  18.8 ms, Total. 37.66 ms (0.2%)
+[Performance] BuildCatalog                                                                                                         :        1 samples, Peak.  17.8 ms (1.0x), Avg.  17.8 ms, Total. 17.76 ms (0.1%)
+[Performance] ModelImporterPostProcessor.OnPostprocessAllAssets                                                                    :        2 samples, Peak.  1.22 ms (1.0x), Avg.  1.22 ms, Total. 2.436 ms (0.0%)
+[Performance] RetainedModeAssetPostprocessor.OnPostprocessAllAssets                                                                :        2 samples, Peak.  4.02 ms (1.0x), Avg.  4.02 ms, Total. 8.043 ms (0.0%)
+[Performance] AssetChangedListener.OnPostprocessAllAssets                                                                          :        2 samples, Peak.  1.85 ms (1.0x), Avg.  1.85 ms, Total. 3.704 ms (0.0%)
+[Performance] SpeedTreePostProcessor.OnPostprocessAllAssets                                                                        :        2 samples, Peak.   183 us (1.0x), Avg.   182 us, Total. 363.7 us (0.0%)
+[Performance] TextAssetPostProcessor.OnPostprocessAllAssets                                                                        :        2 samples, Peak.   433 us (1.0x), Avg.   432 us, Total. 864.1 us (0.0%)
+[Performance] SyncVS.PostprocessSyncProject                                                                                        :        2 samples, Peak.  1.63 ms (1.1x), Avg.  1.50 ms, Total. 3.004 ms (0.0%)
+[Performance] Application.ImportPackagesAndSetTemplateWhenCreatingProject                                                          :        1 samples, Peak.  18.4 ms (1.0x), Avg.  18.4 ms, Total. 18.40 ms (0.1%)
+[Performance] Application.SyncCurrentColorSpace                                                                                    :        1 samples, Peak.  6.94 ms (1.0x), Avg.  6.94 ms, Total. 6.941 ms (0.0%)
+[Performance] Application.OnUsbDevicesChanged                                                                                      :        1 samples, Peak.  4.34 ms (1.0x), Avg.  4.34 ms, Total. 4.340 ms (0.0%)
+[Performance] Application.AssetInstanceCacheUpdate                                                                                 :        1 samples, Peak.   200 ns (1.0x), Avg.   200 ns, Total. 200.0 ns (0.0%)
+[Performance] Application.UnityExtensions.Initialize                                                                               :        1 samples, Peak.   466 us (1.0x), Avg.   466 us, Total. 465.9 us (0.0%)
+[Performance] CodeEditorProjectSync.SyncEditorProject                                                                              :        1 samples, Peak.  87.0 us (1.0x), Avg.  87.0 us, Total. 87.00 us (0.0%)
+[Performance] Application.ExecuteStartups                                                                                          :        1 samples, Peak.  37.2 ms (1.0x), Avg.  37.2 ms, Total. 37.20 ms (0.2%)
+[Performance] Menu.RegisterMenuInterface                                                                                           :       26 samples, Peak.   700 ns (5.2x), Avg.   135 ns, Total. 3.500 us (0.0%)
+[Performance] Gizmo.RebuildRenderers                                                                                               :        3 samples, Peak.  36.7 ms (1.6x), Avg.  22.4 ms, Total. 67.09 ms (0.3%)
+[Performance] Gizmo.AddGizmoRenderers                                                                                              :       66 samples, Peak.  1.56 ms (23.4x), Avg.  66.9 us, Total. 4.418 ms (0.0%)
+[Performance] Application.editorInitializingProject                                                                                :        1 samples, Peak.   107 ms (1.0x), Avg.   107 ms, Total. 107.3 ms (0.5%)
+[Performance] Application.FinishLoadingProject                                                                                     :        1 samples, Peak.   110 ms (1.0x), Avg.   110 ms, Total. 109.8 ms (0.5%)
+[Performance] Application.InitializeMenu                                                                                           :        1 samples, Peak.  60.7 ms (1.0x), Avg.  60.7 ms, Total. 60.71 ms (0.3%)
+[Performance] Menu.RebuildAll                                                                                                      :        1 samples, Peak.  60.7 ms (1.0x), Avg.  60.7 ms, Total. 60.67 ms (0.3%)
+[Performance] Menu.BuildRegisteredMenuInterfaces                                                                                   :        1 samples, Peak.  59.0 ms (1.0x), Avg.  59.0 ms, Total. 59.02 ms (0.3%)
+[Performance] Menu.FilterMenuItem                                                                                                  :      480 samples, Peak.  16.9 ms (467.0x), Avg.  36.3 us, Total. 17.41 ms (0.1%)
+[Performance] UpdateAllMenus                                                                                                       :        1 samples, Peak.   458 us (1.0x), Avg.   458 us, Total. 458.0 us (0.0%)
+[Performance] Menu.RebuildOSMainMenu                                                                                               :        2 samples, Peak.  1.42 ms (1.2x), Avg.  1.23 ms, Total. 2.455 ms (0.0%)
+[Performance] EditorSceneManager.sceneClosing: UnityEditor.SceneVisibilityManager.EditorSceneManagerOnSceneClosing                 :        3 samples, Peak.   286 us (1.6x), Avg.   183 us, Total. 548.7 us (0.0%)
+[Performance] GUIView.RepaintAll.PlayerLoopController                                                                              :    79251 samples, Peak.   209 us (689.3x), Avg.   304 ns, Total. 24.06 ms (0.1%)
+[Performance] EditorSceneManager.newSceneCreated: UnityEditor.SceneTemplate.SceneTemplateService.OnNewSceneCreated                 :        1 samples, Peak.   238 us (1.0x), Avg.   238 us, Total. 237.9 us (0.0%)
+[Performance] EditorSceneManager.newSceneCreated: UnityEditor.SceneVisibilityManager.EditorSceneManagerOnNewSceneCreated           :        1 samples, Peak.   176 us (1.0x), Avg.   176 us, Total. 176.0 us (0.0%)
+[Performance] EditorSceneManager.newSceneCreated: UnityEditor.SceneManagement.StageNavigationManager.OnNewSceneCreated             :        1 samples, Peak.  56.8 us (1.0x), Avg.  56.8 us, Total. 56.80 us (0.0%)
+[Performance] Application.InvokeFinishedLoadingProject                                                                             :        1 samples, Peak.   732 us (1.0x), Avg.   732 us, Total. 732.5 us (0.0%)
+[Performance] ProcessService.OnProjectLoaded                                                                                       :        1 samples, Peak.  35.5 us (1.0x), Avg.  35.5 us, Total. 35.50 us (0.0%)
+[Performance] EditorSceneManager.sceneOpening: UnityEditor.SceneVisibilityManager.EditorSceneManagerOnSceneOpening                 :        1 samples, Peak.   134 us (1.0x), Avg.   134 us, Total. 134.2 us (0.0%)
+[Performance] Inspector.InitOrRebuild                                                                                              :        2 samples, Peak.   348 us (1.0x), Avg.   347 us, Total. 693.1 us (0.0%)
+[Performance] EditorSceneManager.sceneOpened: UnityEditor.SceneTemplate.SceneTemplateService.OnSceneOpened                         :        1 samples, Peak.   189 us (1.0x), Avg.   189 us, Total. 189.4 us (0.0%)
+[Performance] EditorSceneManager.sceneOpened: UnityEditor.SceneVisibilityManager.EditorSceneManagerOnSceneOpened                   :        1 samples, Peak.  89.2 us (1.0x), Avg.  89.2 us, Total. 89.20 us (0.0%)
+[Performance] EditorSceneManager.sceneOpened: UnityEditor.SceneManagement.StageNavigationManager.OnSceneOpened                     :        1 samples, Peak.  47.0 us (1.0x), Avg.  47.0 us, Total. 47.00 us (0.0%)
+[Performance] EditorApplication.playModeStateChanged                                                                               :        1 samples, Peak.  1.03 ms (1.0x), Avg.  1.03 ms, Total. 1.026 ms (0.0%)
+[Performance] EditorApplication.playModeStateChanged: UnityEditor.ObjectPool.PoolManager.OnEditorStateChange                       :        2 samples, Peak.   137 us (1.0x), Avg.   137 us, Total. 274.3 us (0.0%)
+[Performance] EditorApplication.playModeStateChanged: UnityEditor.PackageManager.UI.Internal.PlayModeDownload.PlayModeStateChanged :        2 samples, Peak.   264 us (1.4x), Avg.   189 us, Total. 377.3 us (0.0%)
+[Performance] EditorApplication.playModeStateChanged: UnityEditor.SceneManagement.EditorSceneManager.PlayModeStateChangedCallback  :        2 samples, Peak.  37.2 us (1.0x), Avg.  35.7 us, Total. 71.40 us (0.0%)
+[Performance] EditorApplication.playModeStateChanged: UnityEditor.PackageManager.UI.Internal.ApplicationProxy.PlayModeStateChanged :        2 samples, Peak.   157 us (1.0x), Avg.   155 us, Total. 309.6 us (0.0%)
+[Performance] EditorApplication.playModeStateChanged: UnityEditor.SceneVisibilityManager.EditorApplicationPlayModeStateChanged     :        2 samples, Peak.  31.3 us (1.0x), Avg.  30.8 us, Total. 61.50 us (0.0%)
+[Performance] Application.InvokeProjectWasLoaded                                                                                   :        1 samples, Peak.  39.6 us (1.0x), Avg.  39.6 us, Total. 39.60 us (0.0%)
+[Performance] Application.Message                                                                                                  :    79250 samples, Peak.   355 us (1838.7x), Avg.   193 ns, Total. 15.31 ms (0.1%)
+[Performance] Application.Message.WM_0031F                                                                                         :        1 samples, Peak.  5.20 us (1.0x), Avg.  5.20 us, Total. 5.200 us (0.0%)
+[Performance] Application.Tick                                                                                                     :    79249 samples, Peak.  1.06 s (4924.4x), Avg.   215 us, Total. 17.07 s (73.2%)
+[Performance] CheckLicensingClient                                                                                                 :        4 samples, Peak.  14.5 us (1.2x), Avg.  11.7 us, Total. 46.80 us (0.0%)
+[Performance] CheckLicensingClientNotification                                                                                     :        4 samples, Peak.  24.9 us (1.3x), Avg.  19.7 us, Total. 78.70 us (0.0%)
+[Performance] LicenseActivated.Tick                                                                                                :        1 samples, Peak.  7.10 us (1.0x), Avg.  7.10 us, Total. 7.100 us (0.0%)
+[Performance] Application.TickVersionControl                                                                                       :    79250 samples, Peak.   343 us (1115.6x), Avg.   308 ns, Total. 24.38 ms (0.1%)
+[Performance] MonoCompiler.Tick                                                                                                    :       85 samples, Peak.   916 ms (84.9x), Avg.  10.8 ms, Total. 916.3 ms (3.9%)
+[Performance] Application.EnterPlayMode                                                                                            :        1 samples, Peak.   901 ms (1.0x), Avg.   901 ms, Total. 900.7 ms (3.9%)
+[Performance] Application.Reload                                                                                                   :        1 samples, Peak.   656 ms (1.0x), Avg.   656 ms, Total. 655.6 ms (2.8%)
+[Performance] SceneDataContainer.TransformHierarchyChangedSetParentCallback                                                        :     1521 samples, Peak.  21.6 us (53.4x), Avg.   405 ns, Total. 615.6 us (0.0%)
+[Performance] SceneVisibilityState.IsFlagSetInParents                                                                              :     2253 samples, Peak.  1.40 us (8.7x), Avg.   160 ns, Total. 361.1 us (0.0%)
+[Performance] UnityBuildPostprocessor.OnProcessScene                                                                               :        1 samples, Peak.  1.44 ms (1.0x), Avg.  1.44 ms, Total. 1.440 ms (0.0%)
+[Performance] UnityConnect.Tick                                                                                                    :        1 samples, Peak.  7.47 ms (1.0x), Avg.  7.47 ms, Total. 7.473 ms (0.0%)
+[Performance] UnityVersionControl.Tick                                                                                             :        1 samples, Peak.   800 ns (1.0x), Avg.   800 ns, Total. 800.0 ns (0.0%)
+[Performance] CurlRequest.Tick                                                                                                     :      168 samples, Peak.  93.9 us (64.3x), Avg.  1.46 us, Total. 245.2 us (0.0%)
+[Performance] HubClient.Tick                                                                                                       :      168 samples, Peak.  3.50 us (12.1x), Avg.   289 ns, Total. 48.50 us (0.0%)
+[Performance] AssetDatabase.Tick                                                                                                   :      168 samples, Peak.   115 us (125.5x), Avg.   917 ns, Total. 154.1 us (0.0%)
+[Performance] SceneBackgroundTask.Tick                                                                                             :      113 samples, Peak.   500 ns (2.9x), Avg.   173 ns, Total. 19.60 us (0.0%)
+[Performance] Scheduler.Tick                                                                                                       :     1649 samples, Peak.  2.44 ms (426.3x), Avg.  5.73 us, Total. 9.454 ms (0.0%)
+[Performance] RepaintAllProfilerWindows                                                                                            :       34 samples, Peak.   297 us (29.1x), Avg.  10.2 us, Total. 346.7 us (0.0%)
+[Performance] PlayerUpdates.Tick                                                                                                   :      334 samples, Peak.  32.9 us (3.1x), Avg.  10.6 us, Total. 3.538 ms (0.0%)
+[Performance] Application.TickGlobalCallbacks                                                                                      :    79250 samples, Peak.  57.9 ms (5693.9x), Avg.  10.2 us, Total. 806.0 ms (3.5%)
+[Performance] EditorAnalytics.Tick                                                                                                 :       68 samples, Peak.  37.3 us (10.2x), Avg.  3.64 us, Total. 247.6 us (0.0%)
+[Performance] Video.Update                                                                                                         :    79250 samples, Peak.  1.33 ms (5224.1x), Avg.   255 ns, Total. 20.24 ms (0.1%)
+[Performance] Application.TickProgress                                                                                             :    79250 samples, Peak.  2.67 ms (10169.1x), Avg.   263 ns, Total. 20.84 ms (0.1%)
+[Performance] Application.TickSceneTracker                                                                                         :    79249 samples, Peak.  21.8 ms (3073.3x), Avg.  7.11 us, Total. 563.3 ms (2.4%)
+[Performance] EditorApplication.update                                                                                             :    79249 samples, Peak.  21.7 ms (4069.2x), Avg.  5.34 us, Total. 423.2 ms (1.8%)
+[Performance] EditorApplication.update: ProjectAPlus.Editor.ProjectAPlusAssetGenerator.CompleteFlowSmokeUpdate                     :    79249 samples, Peak.  19.6 ms (7156.7x), Avg.  2.74 us, Total. 217.4 ms (0.9%)
+[Performance] EditorApplication.update: UnityEditor.PackageManager.UI.Internal.ApplicationProxy.OnUpdate                           :    79249 samples, Peak.   586 us (942.0x), Avg.   622 ns, Total. 49.29 ms (0.2%)
+[Performance] EditorApplication.update: UnityEditor.SceneManagement.StageNavigationManager.Update                                  :    79249 samples, Peak.   424 us (1888.3x), Avg.   225 ns, Total. 17.80 ms (0.1%)
+[Performance] ConsoleLog.Tick                                                                                                      :       84 samples, Peak.   903 us (72.4x), Avg.  12.5 us, Total. 1.047 ms (0.0%)
+[Performance] HierarchyWindow.Tick                                                                                                 :      112 samples, Peak.   991 us (32.4x), Avg.  30.6 us, Total. 3.423 ms (0.0%)
+[Performance] EditorApplication.hierarchyChanged: Unity.UIElements.Editor.UIDocumentHierarchyWatcher.OnHierarchyChanged            :       23 samples, Peak.   210 us (21.4x), Avg.  9.79 us, Total. 225.1 us (0.0%)
+[Performance] Inspector.Tick                                                                                                       :      112 samples, Peak.  39.6 ms (111.7x), Avg.   354 us, Total. 39.70 ms (0.2%)
+[Performance] EditorApplication.delayCall: UnityEditor.ShortcutManagement.ShortcutIntegration.EnsureShortcutsAreInitialized        :        1 samples, Peak.  36.7 ms (1.0x), Avg.  36.7 ms, Total. 36.69 ms (0.2%)
+[Performance] EditorApplication.delayCall: ProjectAPlus.Editor.ProjectAPlusAssetGenerator.EnsureScenes                             :        1 samples, Peak.  1.08 ms (1.0x), Avg.  1.08 ms, Total. 1.085 ms (0.0%)
+[Performance] EditorApplication.delayCall: callback in UnityEditor.EditorTools.ToolShortcutContext                                 :        1 samples, Peak.  1.20 ms (1.0x), Avg.  1.20 ms, Total. 1.200 ms (0.0%)
+[Performance] EditorApplication.delayCall: callback in UnityEditor.SceneVisibilityManager                                          :        1 samples, Peak.  87.1 us (1.0x), Avg.  87.1 us, Total. 87.10 us (0.0%)
+[Performance] EditorApplication.delayCall: callback in UnityEditor.EditorWindow                                                    :        1 samples, Peak.  42.3 us (1.0x), Avg.  42.3 us, Total. 42.30 us (0.0%)
+[Performance] Tooltip.Tick                                                                                                         :      334 samples, Peak.  28.5 us (41.1x), Avg.   693 ns, Total. 231.5 us (0.0%)
+[Performance] Application.RequestRepaintForPanels                                                                                  :    79249 samples, Peak.   325 us (355.7x), Avg.   913 ns, Total. 72.34 ms (0.3%)
+[Performance] Application.UpdateScene                                                                                              :    79249 samples, Peak.  8.73 ms (58.4x), Avg.   149 us, Total. 11.84 s (50.8%)
+[Performance] PackageImporter.Tick                                                                                                 :       84 samples, Peak.  1.50 us (4.5x), Avg.   333 ns, Total. 28.00 us (0.0%)
+[Performance] InspectorBackground.Tick                                                                                             :      112 samples, Peak.   700 ns (2.5x), Avg.   276 ns, Total. 30.90 us (0.0%)
+[Performance] BurstDebug.Tick                                                                                                      :       34 samples, Peak.  1.00 us (2.2x), Avg.   462 ns, Total. 15.70 us (0.0%)
+[Performance] Application.ChangeLayoutIfNeeded                                                                                     :    79249 samples, Peak.  19.5 us (336.6x), Avg.  57.9 ns, Total. 4.591 ms (0.0%)
+[Performance] AsyncReadManager.ForceCloseFiles                                                                                     :       17 samples, Peak.  51.6 us (12.4x), Avg.  4.16 us, Total. 70.70 us (0.0%)
+[Performance] Application.Shutdown.SaveDefaultWindowPreferences                                                                    :        1 samples, Peak.   128 us (1.0x), Avg.   128 us, Total. 127.9 us (0.0%)
+[Performance] Application.Shutdown.SaveSceneManagerSetup                                                                           :        1 samples, Peak.   354 us (1.0x), Avg.   354 us, Total. 353.6 us (0.0%)
+[Performance] Application.Shutdown.CleanupAllContainerWindows                                                                      :        1 samples, Peak.   800 ns (1.0x), Avg.   800 ns, Total. 800.0 ns (0.0%)
+[Performance] EditorApplication.quitting: callback in UnityEditor.TextCore.Text.EditorEventCallbacks                               :        1 samples, Peak.  5.16 ms (1.0x), Avg.  5.16 ms, Total. 5.158 ms (0.0%)
+[Performance] Application.Shutdown.PauseProfilerSession                                                                            :        1 samples, Peak.  24.2 us (1.0x), Avg.  24.2 us, Total. 24.20 us (0.0%)
+[Performance] Application.Shutdown.PauseAssetImportWorkers                                                                         :        1 samples, Peak.  79.7 us (1.0x), Avg.  79.7 us, Total. 79.70 us (0.0%)
+[Performance] Application.Shutdown.SaveAssets                                                                                      :        1 samples, Peak.  5.94 ms (1.0x), Avg.  5.94 ms, Total. 5.941 ms (0.0%)
+[Performance] BuilderAssetModificationProcessor.OnWillSaveAssets                                                                   :        1 samples, Peak.   482 us (1.0x), Avg.   482 us, Total. 481.8 us (0.0%)
+[Performance] TerrainModificationProcessor.OnWillSaveAssets                                                                        :        1 samples, Peak.   797 us (1.0x), Avg.   797 us, Total. 796.7 us (0.0%)
+[Performance] Application.Shutdown.CleanupRenderPipeline                                                                           :        1 samples, Peak.   234 us (1.0x), Avg.   234 us, Total. 234.0 us (0.0%)
+[Performance] Application.Shutdown.StopPreloadManager                                                                              :        1 samples, Peak.  9.97 ms (1.0x), Avg.  9.97 ms, Total. 9.967 ms (0.0%)
+[Performance] Application.Shutdown.DestroyWorld                                                                                    :        1 samples, Peak.  3.51 ms (1.0x), Avg.  3.51 ms, Total. 3.512 ms (0.0%)
+[Performance] Application.Shutdown.CleanupAfterLoad                                                                                :        1 samples, Peak.  2.27 ms (1.0x), Avg.  2.27 ms, Total. 2.274 ms (0.0%)
+[Performance] Application.Shutdown.Progress                                                                                        :        1 samples, Peak.  10.7 us (1.0x), Avg.  10.7 us, Total. 10.70 us (0.0%)
+[Performance] Application.Shutdown.GICleanupManagers                                                                               :        1 samples, Peak.   827 us (1.0x), Avg.   827 us, Total. 827.1 us (0.0%)
+[Performance] Application.Shutdown.MenuCleanupClass                                                                                :        1 samples, Peak.   183 us (1.0x), Avg.   183 us, Total. 182.8 us (0.0%)
+[Performance] Application.Shutdown.ADBSaveStateBeforeShutdown                                                                      :        1 samples, Peak.  6.60 us (1.0x), Avg.  6.60 us, Total. 6.600 us (0.0%)
+[Performance] Application.Shutdown.RemoteShutdown                                                                                  :        1 samples, Peak.   600 ns (1.0x), Avg.   600 ns, Total. 600.0 ns (0.0%)
+[Performance] Application.Shutdown.CleanupVCProvider                                                                               :        1 samples, Peak.  11.1 us (1.0x), Avg.  11.1 us, Total. 11.10 us (0.0%)
+[Performance] Application.Shutdown.InputShutdown                                                                                   :        1 samples, Peak.  2.30 us (1.0x), Avg.  2.30 us, Total. 2.300 us (0.0%)
+[Performance] Application.Shutdown.GizmoManagerDestroy                                                                             :        1 samples, Peak.   895 us (1.0x), Avg.   895 us, Total. 894.5 us (0.0%)
+[Performance] Application.Shutdown.ProfilerSession                                                                                 :        1 samples, Peak.   147 us (1.0x), Avg.   147 us, Total. 146.8 us (0.0%)
+[Performance] Application.Shutdown.ReleaseGfxWindowOnAllGUIViews                                                                   :        1 samples, Peak.   300 ns (1.0x), Avg.   300 ns, Total. 300.0 ns (0.0%)
+[Performance] Application.Shutdown.CleanupEngine                                                                                   :        1 samples, Peak.   109 ms (1.0x), Avg.   109 ms, Total. 108.5 ms (0.5%)
+[Performance] Application.Shutdown.CleanupAssetDatabase                                                                            :        1 samples, Peak.  3.00 ms (1.0x), Avg.  3.00 ms, Total. 3.001 ms (0.0%)
+[Performance] Application.Shutdown.ScriptCompilationCleanUp                                                                        :        1 samples, Peak.  15.9 ms (1.0x), Avg.  15.9 ms, Total. 15.94 ms (0.1%)
+[Performance] Application.Shutdown.DestroyJobSystem                                                                                :        1 samples, Peak.   138 us (1.0x), Avg.   138 us, Total. 138.0 us (0.0%)
+[Performance] Application.Shutdown.CleanupPersistentManager                                                                        :        1 samples, Peak.   276 us (1.0x), Avg.   276 us, Total. 275.6 us (0.0%)
+[Performance] Application.Shutdown.CleanupAsyncReadManager                                                                         :        1 samples, Peak.  1.62 ms (1.0x), Avg.  1.62 ms, Total. 1.618 ms (0.0%)
+[Performance] Application.Shutdown.CleanupProgressBar                                                                              :        1 samples, Peak.   500 ns (1.0x), Avg.   500 ns, Total. 500.0 ns (0.0%)
+[Performance] Application.Shutdown.CleanupMono                                                                                     :        1 samples, Peak.  51.7 ms (1.0x), Avg.  51.7 ms, Total. 51.68 ms (0.2%)
+[Performance] Application.Shutdown.CleanupStdConverters                                                                            :        1 samples, Peak.  15.7 us (1.0x), Avg.  15.7 us, Total. 15.70 us (0.0%)
+[Performance] Application.Shutdown.UnloadAllPlatformSupportModuleNativeDlls                                                        :        1 samples, Peak.   600 ns (1.0x), Avg.   600 ns, Total. 600.0 ns (0.0%)
+[Performance] Application.Shutdown.UnloadAllPlatformSupportNativeLibraries                                                         :        1 samples, Peak.   100 ns (1.0x), Avg.   100 ns, Total. 100.0 ns (0.0%)
+[Performance] Application.Shutdown.CleanupAutoDocumentation                                                                        :        1 samples, Peak.   516 us (1.0x), Avg.   516 us, Total. 516.5 us (0.0%)
+[Performance] Application.Shutdown.ShaderNameManagerDestroy                                                                        :        1 samples, Peak.  58.2 us (1.0x), Avg.  58.2 us, Total. 58.20 us (0.0%)
+[Performance] Application.Shutdown.CleanupCacheServer                                                                              :        1 samples, Peak.   200 ns (1.0x), Avg.   200 ns, Total. 200.0 ns (0.0%)
+[Performance] Application.Shutdown.Virtualization_Shutdown                                                                         :        1 samples, Peak.   300 ns (1.0x), Avg.   300 ns, Total. 300.0 ns (0.0%)
+[Performance] Application.Shutdown.DevConnections                                                                                  :        1 samples, Peak.  93.7 us (1.0x), Avg.  93.7 us, Total. 93.70 us (0.0%)
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server::Kill -- Server was shutdown
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_CurlRequest]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_MAIN]
+      Peak usage frame count: [4.0 KB-8.0 KB]: 79098 frames, [8.0 KB-16.0 KB]: 4 frames, [16.0 KB-32.0 KB]: 143 frames, [64.0 KB-128.0 KB]: 3 frames, [8.0 MB-16.0 MB]: 1 frames
+      Initial Block Size 16.0 MB
+      Current Block Size 16.0 MB
+      Peak Allocated Bytes 9.4 MB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 4]
+      Initial Block Size 256.0 KB
+      Current Block Size 296.0 KB
+      Peak Allocated Bytes 292.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_AUDIO_FMOD mixer thread]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_BakingJobs.Worker 5]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_CoreBusinessMetricsCache]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 8.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_REST Message Handler]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 13]
+      Initial Block Size 256.0 KB
+      Current Block Size 296.0 KB
+      Peak Allocated Bytes 292.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 1.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_AssetDatabase.IOService]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 10]
+      Initial Block Size 256.0 KB
+      Current Block Size 296.0 KB
+      Peak Allocated Bytes 292.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 12]
+      Initial Block Size 256.0 KB
+      Current Block Size 296.0 KB
+      Peak Allocated Bytes 292.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager] x 2
+      Initial Block Size 32.0 MB
+      Current Block Size 32.0 MB
+      Peak Allocated Bytes 2.0 MB
+      Overflow Count 0
+    [ALLOC_TEMP_Profiler.Dispatcher]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 14]
+      Initial Block Size 256.0 KB
+      Current Block Size 296.0 KB
+      Peak Allocated Bytes 292.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 3]
+      Initial Block Size 256.0 KB
+      Current Block Size 296.0 KB
+      Peak Allocated Bytes 292.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_BakingJobs.Worker 7]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_CurlRequest]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 296.0 KB
+      Peak Allocated Bytes 292.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_BakingJobs.Worker 6]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 11]
+      Initial Block Size 256.0 KB
+      Current Block Size 296.0 KB
+      Peak Allocated Bytes 292.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 1.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 5]
+      Initial Block Size 256.0 KB
+      Current Block Size 296.0 KB
+      Peak Allocated Bytes 292.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_ReadCacheIndex] x 2
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_EnlightenWorker] x 8
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_DirMonitor]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0.9 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 9]
+      Initial Block Size 256.0 KB
+      Current Block Size 296.0 KB
+      Peak Allocated Bytes 292.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 6]
+      Initial Block Size 256.0 KB
+      Current Block Size 296.0 KB
+      Peak Allocated Bytes 292.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_BakingJobs.Worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 128 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_AUDIO_FMOD (WASAPI) feeder thread]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 168 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 144.0 KB
+      Peak Allocated Bytes 111.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_AUDIO_FMOD stream thread]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_BakingJobs.Worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 8]
+      Initial Block Size 256.0 KB
+      Current Block Size 296.0 KB
+      Peak Allocated Bytes 292.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 1.0 MB
+      Peak Allocated Bytes 1.0 MB
+      Overflow Count 0
+    [ALLOC_TEMP_BakingJobs.Worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_BakingJobs.Worker 3]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_EditorTaskManager]
+      Initial Block Size 64.0 KB
+      Current Block Size 68.0 KB
+      Peak Allocated Bytes 64.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_BakingJobs.Worker 4]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_HTTP REST Server]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 74 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 15
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 14]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 7]
+      Initial Block Size 256.0 KB
+      Current Block Size 296.0 KB
+      Peak Allocated Bytes 292.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_CloudJob.Worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 36.0 KB
+      Peak Allocated Bytes 17.2 KB
+      Overflow Count 0
+[ALLOC_MEMORYPROFILER]
+  Peak usage frame count: [32.0 KB-64.0 KB]: 79248 frames, [64.0 KB-128.0 KB]: 1 frames
+  Requested Block Size 1.0 MB
+  Peak Block count 1
+  Peak Allocated memory 74.1 KB
+  Peak Large allocation bytes 0 B
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 1316
+    [ALLOC_BUCKET]
+      Large Block size 32.0 MB
+      Used Block count 1
+      Peak Allocated bytes 6.9 MB
+    [ALLOC_DEFAULT_MAIN]
+      Peak usage frame count: [32.0 MB-64.0 MB]: 79249 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 3
+      Peak Allocated memory 44.9 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [4.0 MB-8.0 MB]: 79249 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 4.2 MB
+      Peak Large allocation bytes 0 B
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 32.0 MB
+      Used Block count 1
+      Peak Allocated bytes 6.9 MB
+    [ALLOC_GFX_MAIN]
+      Peak usage frame count: [4.0 MB-8.0 MB]: 79249 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 6.2 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_GFX_THREAD]
+      Peak usage frame count: [0-1.0 KB]: 79249 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 80 B
+      Peak Large allocation bytes 0 B
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 55
+    [ALLOC_BUCKET]
+      Large Block size 32.0 MB
+      Used Block count 1
+      Peak Allocated bytes 6.9 MB
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Peak usage frame count: [8.0 MB-16.0 MB]: 79248 frames, [32.0 MB-64.0 MB]: 1 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 4
+      Peak Allocated memory 33.4 MB
+      Peak Large allocation bytes 20.1 MB
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Peak usage frame count: [1.0 KB-2.0 KB]: 79248 frames, [16.0 KB-32.0 KB]: 1 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 1
+      Peak Allocated memory 30.2 KB
+      Peak Large allocation bytes 0 B
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 497
+    [ALLOC_BUCKET]
+      Large Block size 32.0 MB
+      Used Block count 1
+      Peak Allocated bytes 6.9 MB
+    [ALLOC_TYPETREE_MAIN]
+      Peak usage frame count: [0.5 MB-1.0 MB]: 79248 frames, [2.0 MB-4.0 MB]: 1 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 2
+      Peak Allocated memory 2.4 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Peak usage frame count: [16.0 KB-32.0 KB]: 79249 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 19.8 KB
+      Peak Large allocation bytes 0 B
+[ALLOC_PROFILER]
+  Peak usage frame count: [256.0 KB-0.5 MB]: 34237 frames, [0.5 MB-1.0 MB]: 1215 frames, [1.0 MB-2.0 MB]: 63 frames, [2.0 MB-4.0 MB]: 43734 frames
+  Requested Block Size 16.0 MB
+  Peak Block count 1
+  Peak Allocated memory 2.8 MB
+  Peak Large allocation bytes 0 B
+    [ALLOC_PROFILER_BUCKET]
+      Large Block size 32.0 MB
+      Used Block count 1
+      Peak Allocated bytes 6.6 KB
+[ALLOC_PROFILER_EDITOR]
+  Peak usage frame count: [0-1.0 KB]: 79249 frames
+  Requested Block Size 1.0 MB
+  Peak Block count 0
+  Peak Allocated memory 0 B
+  Peak Large allocation bytes 0 B
+    [ALLOC_PROFILER_BUCKET]
+      Large Block size 32.0 MB
+      Used Block count 1
+      Peak Allocated bytes 6.6 KB
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1781104383276,"processId":21000,"allocatedMemory":10350414,"memoryLabels":[{"Default":20335},{"Permanent":15615},{"NewDelete":80904},{"Thread":4229300},{"Manager":32879},{"VertexData":12},{"Geometry":560},{"Texture":480},{"Shader":68850},{"Material":24},{"GfxDevice":57048},{"Animation":296},{"Audio":3928},{"FontEngine":272},{"Physics":513},{"Serialization":948},{"Input":14744},{"JobScheduler":36120},{"Mono":40},{"ScriptingNativeRuntime":191848},{"BaseObject":1627276},{"Resource":1360},{"Renderer":2304},{"Transform":16},{"File":3805},{"WebCam":96},{"Culling":40},{"Terrain":1137},{"Wind":24},{"STL":48},{"String":20309},{"DynamicArray":53301},{"HashMap":59119},{"Utility":2663810},{"Curl":1424},{"PoolAlloc":1728},{"AI":104},{"TypeTree":5077},{"ScriptManager":640},{"RuntimeInitializeOnLoadManager":80},{"SpriteAtlas":128},{"GI":4072},{"Director":7960},{"CloudService":2368},{"WebRequest":688},{"VR":46081},{"SceneManager":568},{"Video":72},{"LazyScriptCache":40},{"NativeArray":12},{"Camera":25},{"Secure":1},{"SerializationCache":1584},{"APIUpdating":11872},{"Subsystems":392},{"VirtualTexturing":57896},{"StaticSafetyDebugInfo":327680},{"EditorGui":56},{"EditorUtility":16391},{"VersionControl":4},{"Undo":704},{"AssetDatabase":626830},{"RestService":1414},{"EditorGi":376},{"License":3584},{"UnityConnect":25344},{"Collab":593},{"Upm":2032},{"DrivenProperties":96},{"LocalIPC":272},{"ProfilerEditor":10943},{"CoreBusinessMetrics":3842},{"AssetReference":40},{"IPCStream":40}]}

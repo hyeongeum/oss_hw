@@ -1,0 +1,22 @@
+Mono path[0] = 'C:/Users/ryu/Documents/Codex/2026-06-10/files-mentioned-by-the-user-3/outputs/ProjectAPlus_Windows/Project A+_Data/Managed'
+Mono config path = 'C:/Users/ryu/Documents/Codex/2026-06-10/files-mentioned-by-the-user-3/outputs/ProjectAPlus_Windows/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Initialize engine version: 2022.3.62f3 (96770f904ca7)
+[Subsystems] Discovering subsystems at path C:/Users/ryu/Documents/Codex/2026-06-10/files-mentioned-by-the-user-3/outputs/ProjectAPlus_Windows/Project A+_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2486)
+    Vendor:   NVIDIA
+    VRAM:     8024 MB
+    Driver:   32.0.16.1047
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.351 seconds
+- Finished resetting the current domain, in  0.001 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 13.355500 ms
+Project A+ title ready.
